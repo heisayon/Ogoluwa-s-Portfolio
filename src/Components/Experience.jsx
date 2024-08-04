@@ -33,7 +33,7 @@ function Experience() {
                 .pauseFor(1200)
                 .deleteChars(15)
                 .typeString(
-                  `<span style='color : #525CEB'>Community Moderator</span>`
+                  `<span style='color : #525CEB'> Community Moderator</span>`
                 )
                 .pauseFor(1500)
                 .deleteAll()
