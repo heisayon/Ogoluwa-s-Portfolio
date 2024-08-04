@@ -28,7 +28,7 @@ function Experience() {
                 .pauseFor(1200)
                 .deleteChars(28)
                 .typeString(
-                  `<span style='color: #F4CE14'>Collab Manager</span>`
+                  `<span style='color: #F4CE14'> Collab Manager</span>`
                 )
                 .pauseFor(1200)
                 .deleteChars(15)
