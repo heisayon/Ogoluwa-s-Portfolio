@@ -7,7 +7,7 @@ function Testimonials() {
         </h1>
         <section>
           <div>
-            <div className="border-2 m-auto mt-20 p-5 mx-auto flex h-fit w-full max-w-[426px] flex-col rounded-2xl bg-gray-900/95 bg-opacity-50 bg-gradient-to-b from-[#161E2C] to-[#111721] pt-6 px-8 pb-12 shadow backdrop-blur-3xl transition-all hover:shadow-lg hover:scale-105">
+            <div className="border-2 m-auto mt-20 p-5 mx-auto flex h-fit w-full max-w-[426px] flex-col rounded-2xl bg-gray-900/95 bg-opacity-50 bg-gradient-to-b from-[#161E2C] to-[#111721] pt-6 px-8 pb-12 shadow backdrop-blur-3xl transition-all hover:scale-105 cursor-pointer">
               <h1 className="text-center">
                 The attention to detail and visually captivating design exceeded
                 our expectations. My Business has received numerous compliments
@@ -18,7 +18,7 @@ function Testimonials() {
                 Zion ✨
               </span>
             </div>
-            <div className="border-2 m-auto mt-20 p-5 mx-auto flex h-fit w-full max-w-[426px] flex-col rounded-2xl bg-gray-900/95 bg-opacity-50 bg-gradient-to-b from-[#161E2C] to-[#111721] px-8 pb-12 shadow backdrop-blur-3xl transition-all hover:shadow-lg hover:scale-105">
+            <div className="border-2 m-auto mt-20 p-5 mx-auto flex h-fit w-full max-w-[426px] flex-col rounded-2xl bg-gray-900/95 bg-opacity-50 bg-gradient-to-b from-[#161E2C] to-[#111721] px-8 pb-12 shadow backdrop-blur-3xl transition-all hover:scale-105 cursor-pointer">
               <h1 className="text-center">
               Thanks for the Flyer, I really appreciate it. Creativity is <span className="font-bold">TOP NOTCH</span>, despite the little information given. And least I forget, the speed.
               Thank you once again!
