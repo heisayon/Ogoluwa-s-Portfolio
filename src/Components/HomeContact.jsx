@@ -5,7 +5,7 @@ import Discord from "../../public/assets/images/icons8-discord-150.png";
 import Instagram from "../../public/assets/images/icons8-instagram-192.png";
 function HomeContact() {
   return (
-    <div className="mt-[150px]">
+    <div className="mt-[150px] mb-14">
       <h1 className="text-5xl font-semibold bg-gradient-to-r from-[#647DEE] to-[#7F53AC] inline-block text-transparent bg-clip-text mb-30">
         Contact
       </h1>
