@@ -23,7 +23,7 @@ function Experience() {
                 .pauseFor(1000)
                 .deleteChars(16)
                 .typeString(
-                  `a <span style='color: #EF5A6F'>Passionate</span> Graphics Designer`
+                  `a <span style='color: #EF5A6F'>Passionate</span> Graphic Designer`
                 )
                 .pauseFor(1200)
                 .deleteChars(28)
