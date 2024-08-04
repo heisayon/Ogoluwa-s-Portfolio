@@ -12,7 +12,7 @@ function Home() {
         </h1>
         <Experience />
       </div>
-      <h1 className="text-5xl mb-10 font-semibold bg-gradient-to-r from-[#647DEE] to-[#7F53AC] text-transparent bg-clip-text">
+      <h1 className="text-5xl inline-block mb-10 font-semibold bg-gradient-to-r from-[#647DEE] to-[#7F53AC] text-transparent bg-clip-text">
         Featured Works
       </h1>
       <section className="grid justify-center items-center">
