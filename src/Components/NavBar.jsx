@@ -4,7 +4,7 @@ import Remix from "./Remix";
 function NavBar() {
   return (
     <div className="flex justify-between items-center mb-[200px]">
-      <Link to="/" className=" font-bold text-3xl">oslo</Link>
+      <Link to="/" className=" font-bold text-3xl">ogoluwa</Link>
 
       <ul className="flex justify-center items-center max-md:hidden">
         <li className="mr-8">
