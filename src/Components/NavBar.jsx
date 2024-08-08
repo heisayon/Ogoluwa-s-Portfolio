@@ -33,7 +33,7 @@ function NavBar() {
           </ul>
           <img
             src={!navState ?  Hamburger : Close}
-            className="md:hidden z-20"
+            className="md:hidden z-20 transition-all"
             onClick={openMobileNav}
           />
         </div>
