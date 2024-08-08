@@ -16,7 +16,7 @@ function NavBar() {
     <div className="relative">
       <div className="fixed top-0 right-0 left-0 py-5 px-6 h-20 w-full z-20 backdrop-blur-md bg-white/0">
         <div className="flex justify-between items-center mb-[200px]">
-          <Link to="/" className=" font-bold text-3xl z-20">
+          <Link to="/" className=" font-bold text-3xl z-20" onClick={close}>
             ogoluwa
           </Link>
 
@@ -43,12 +43,12 @@ function NavBar() {
           <div className="flex justify-center items-center mt-[50px] z-20">
             <ul className="flex flex-col justify-center items-center">
               <li className="mb-5">
-                <Link to="/works">Works</Link>
+                <Link to="/works" onClick={close}>Works</Link>
               </li>
               <li className="mb-5">
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact" onClick={close}>Contact</Link>
               </li>
-              <li className="cursor-pointer">
+              <li className="cursor-pointer" onClick={close}>
                 <Remix />
               </li>
             </ul>
