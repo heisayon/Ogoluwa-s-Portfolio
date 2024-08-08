@@ -39,7 +39,7 @@ function NavBar() {
         </div>
       </div>
       {navState && (
-        <div className="fixed top-[50px] bg-white/0 backdrop-blur-sm right-0 left-0 h-[30%] bg-white md:hidden">
+        <div className="fixed top-[50px] bg-white/0 backdrop-blur-sm right-0 left-0 h-[30%] bg-white md:hidden z-30">
           <div className="flex justify-center items-center mt-[50px] z-20">
             <ul className="flex flex-col justify-center items-center">
               <li className="mb-5">
