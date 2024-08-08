@@ -22,7 +22,7 @@ function NavBar() {
 
           <ul className="flex justify-center items-center max-md:hidden">
             <li className="mr-8" onClick={close}>
-              <Link to="/works">Works</Link>
+              <Link to="/about">About</Link>
             </li>
             <li className="mr-8" onClick={close}>
               <Link to="/contact">Contact</Link>
@@ -43,7 +43,7 @@ function NavBar() {
           <div className="flex justify-center items-center mt-[50px] z-20">
             <ul className="flex flex-col justify-center items-center">
               <li className="mb-5">
-                <Link to="/works" onClick={close}>Works</Link>
+                <Link to="/about" onClick={close}>About</Link>
               </li>
               <li className="mb-5">
                 <Link to="/contact" onClick={close}>Contact</Link>
