@@ -6,10 +6,8 @@ import Instagram from "/assets/images/instagram.png";
 import Facebook from '/assets/images/facebook.png'
 function HomeContact() {
   return (
-    <div className="mt-[150px] mb-14">
-      <h1 className="text-5xl font-semibold bg-gradient-to-r from-[#647DEE] to-[#7F53AC] inline-block text-transparent bg-clip-text mb-30">
-        Contact
-      </h1>
+    <div className="mt-[50px] mb-14">
+
       <section className="grid justify-center gap-10">
         <div className="grid grid-cols-2 max-sm:grid-cols-1">
           <img src={Email} />

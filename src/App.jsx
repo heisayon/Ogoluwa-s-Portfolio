@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div className="m-auto max-w-[1440px] p-7 font-montserrat text-xl text-white">
-        <nav>
+        <nav className="max-w-[1440px] m-auto mb-[200px] relative">
           <NavBar />
         </nav>
         <main>

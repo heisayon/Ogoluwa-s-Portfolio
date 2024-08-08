@@ -5,7 +5,7 @@ import Testimonials from "../Components/Testimonials";
 function Home() {
   return (
     <>
-      <div className="h-[100vh]">
+      <div className="h-[100vh] mt-[250px]">
         <h1 className="w-[500px] max-sm:w-[70%] font-medium text-2xl">
           Hey there, need creative mind wobbling and engaging visuals? Connect
           now, let&rsquo;s get creative.
@@ -21,11 +21,13 @@ function Home() {
       <section>
         <Testimonials />
       </section>
-      <section>
+      <section className="mt-[130px]">
+        <h1 className="text-5xl font-semibold bg-gradient-to-r from-[#647DEE] to-[#7F53AC] inline-block text-transparent bg-clip-text mb-30">
+          Contact
+        </h1>
         <HomeContact />
       </section>
     </>
-
   );
 }
 
