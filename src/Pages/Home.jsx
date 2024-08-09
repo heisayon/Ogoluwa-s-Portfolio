@@ -2,8 +2,8 @@ import Experience from "../Components/Experience";
 import FeaturedWork from "../Components/FeaturedWork";
 import HomeContact from "../Components/HomeContact";
 import Testimonials from "../Components/Testimonials";
-import { motion } from "framer-motion";
 function Home() {
+
   return (
     <>
       <div className="h-[100vh] mt-[250px]">
@@ -23,9 +23,9 @@ function Home() {
         <Testimonials />
       </section>
       <section className="mt-[130px]">
-        <motion.h1 className="text-5xl font-semibold bg-gradient-to-r from-[#647DEE] to-[#7F53AC] inline-block text-transparent bg-clip-text mb-30" initial={{x: -200}} whileInView={{x: 0}}>
+        <h1 className="text-5xl font-semibold bg-gradient-to-r from-[#647DEE] to-[#7F53AC] inline-block text-transparent bg-clip-text mb-30">
           Contact
-        </motion.h1>
+        </h1>
         <HomeContact />
       </section>
     </>
