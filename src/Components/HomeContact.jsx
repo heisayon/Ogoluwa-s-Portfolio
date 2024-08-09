@@ -4,6 +4,7 @@ import Telegram from "/assets/images/telegram.png";
 import Discord from "/assets/images/discord.png";
 import Instagram from "/assets/images/instagram.png";
 import Facebook from '/assets/images/facebook.png'
+import {motion} from 'framer-motion'
 function HomeContact() {
   return (
     <div className="mt-[50px] mb-14">
@@ -17,7 +18,7 @@ function HomeContact() {
               Social Links
             </h1>
             <section className="flex flex-col">
-              <div className="mb-10 border-2 border-black bg-gradient-to-r from-[#4c73ff] to-[#389bff] drop-shadow-[8px_8px_0_#fff] p-2 flex items-center justify-center">
+              <motion.div className="mb-5 border-2 border-black bg-gradient-to-r from-[#4c73ff] to-[#389bff] drop-shadow-[8px_8px_0_#fff] p-2 flex items-center justify-center rounded-md" initial={{scale: 0, opacity: 0}} whileInView={{opacity: 1, scale: 1}} transition={{delay: .2}}>
               <a href="https://discord.com/users/ogoluwa" target="_blank">
                 <img
                   src={Discord}
@@ -25,8 +26,8 @@ function HomeContact() {
                   className="w-[30px] h-[30px]"
                 />
                 </a>
-              </div>
-              <div className="mb-10 border-2 border-black bg-gradient-to-r from-[#4c73ff] to-[#389bff] drop-shadow-[8px_8px_0_#fff] p-2 flex items-center justify-center">
+              </motion.div>
+              <motion.div className="mb-5 border-2 border-black bg-gradient-to-r from-[#4c73ff] to-[#389bff] drop-shadow-[8px_8px_0_#fff] p-2 flex items-center justify-center rounded-md" initial={{scale: 0, opacity: 0}} whileInView={{opacity: 1, scale: 1}} transition={{delay: .4}}>
               <a href="https://t.me/OGoluwa" target="_blank">
                 <img
                   src={Telegram}
@@ -34,22 +35,22 @@ function HomeContact() {
                   className="w-[30px] h-[30px]"
                 />
                 </a>
-              </div>
-              <div className="mb-10 border-2 border-black bg-gradient-to-r from-[#4c73ff] to-[#389bff] drop-shadow-[8px_8px_0_#fff] p-2 flex items-center justify-center">
+              </motion.div>
+              <motion.div className="mb-5 border-2 border-black bg-gradient-to-r from-[#4c73ff] to-[#389bff] drop-shadow-[8px_8px_0_#fff] p-2 flex items-center justify-center rounded-md" initial={{scale: 0, opacity: 0}} whileInView={{opacity: 1, scale: 1}} transition={{delay: .6}}>
               <a href="https://x.com/Ogoluwa_" target="_blank">
                 <img src={Twitter} alt="X" className="w-[30px] h-[30px]" />
                 </a>
-              </div>
-              <div className="mb-10 border-2 border-black bg-gradient-to-r from-[#4c73ff] to-[#389bff] drop-shadow-[8px_8px_0_#fff] p-2 flex items-center justify-center">
+              </motion.div>
+              <motion.div className="mb-5 border-2 border-black bg-gradient-to-r from-[#4c73ff] to-[#389bff] drop-shadow-[8px_8px_0_#fff] p-2 flex items-center justify-center rounded-md" initial={{scale: 0, opacity: 0}} whileInView={{opacity: 1, scale: 1}} transition={{delay: .8}}>
               <a href="https://www.instagram.com/ogoluwa_1/?igsh=azFxNXh1Mmllc3N4" target="_blank">
                 <img src={Instagram} alt="X" className="w-[30px] h-[30px]" />
                 </a>
-              </div>
-              <div className="mb-10 border-2 border-black bg-gradient-to-r from-[#4c73ff] to-[#389bff] drop-shadow-[8px_8px_0_#fff] p-2 flex items-center justify-center">
+              </motion.div>
+              <motion.div className="mb-5 border-2 border-black bg-gradient-to-r from-[#4c73ff] to-[#389bff] drop-shadow-[8px_8px_0_#fff] p-2 flex items-center justify-center rounded-md" initial={{scale: 0, opacity: 0}} whileInView={{opacity: 1, scale: 1}} transition={{delay: 1}}>
               <a href="https://web.facebook.com/OGthagreat1/" target="_blank">
                 <img src={Facebook} alt="X" className="w-[30px] h-[30px]" />
                 </a>
-              </div>
+              </motion.div>
             </section>
           </div>
         </div>
