@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Hamburger from "/menu_40dp_E8EAED_FILL0_wght400_GRAD0_opsz40.svg";
-import Close from '/close.svg'
+import Close from "/close.svg";
 import Remix from "./Remix";
 import { useState } from "react";
 function NavBar() {
@@ -27,12 +27,15 @@ function NavBar() {
             <li className="mr-8" onClick={close}>
               <Link to="/contact">Contact</Link>
             </li>
+            <li className="mr-8" onClick={close}>
+              <Link to="/works">Works</Link>
+            </li>
             <li className="cursor-pointer" onClick={close}>
               <Remix />
             </li>
           </ul>
           <img
-            src={!navState ?  Hamburger : Close}
+            src={!navState ? Hamburger : Close}
             className="md:hidden z-20 transition-all"
             onClick={openMobileNav}
           />
@@ -43,10 +46,14 @@ function NavBar() {
           <div className="flex justify-center items-center mt-[50px] z-20">
             <ul className="flex flex-col justify-center items-center">
               <li className="mb-5">
-                <Link to="/about" onClick={close}>About</Link>
+                <Link to="/about" onClick={close}>
+                  About
+                </Link>
               </li>
               <li className="mb-5">
-                <Link to="/contact" onClick={close}>Contact</Link>
+                <Link to="/contact" onClick={close}>
+                  Contact
+                </Link>
               </li>
               <li className="cursor-pointer" onClick={close}>
                 <Remix />
