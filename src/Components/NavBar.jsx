@@ -55,6 +55,11 @@ function NavBar() {
                   Contact
                 </Link>
               </li>
+              <li className="mb-5">
+                <Link to="/works" onClick={close}>
+                  Works
+                </Link>
+              </li>
               <li className="cursor-pointer" onClick={close}>
                 <Remix />
               </li>
