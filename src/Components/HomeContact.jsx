@@ -17,7 +17,6 @@ function HomeContact() {
             transition={{ duration: 0.5 }}
           />
           <div className="text-white p-4">
-            {/* #4c73ff 2.34%, #389bff */}
             <h1 className="text-2xl font-bold  flex justify-center items-center mb-6">
               Social Links
             </h1>
@@ -29,10 +28,12 @@ function HomeContact() {
                 transition={{ delay: 0.11 }}
               >
                 <a href="https://discord.com/users/ogoluwa" target="_blank">
-                  <img
+                  <motion.img
                     src={Discord}
                     alt="Discord"
                     className="w-[30px] h-[30px]"
+                    whileInView={{ rotate: [35, 0, -35, 360, 0] }}
+                    transition={{ duration: 1 }}
                   />
                 </a>
               </motion.div>
@@ -43,10 +44,12 @@ function HomeContact() {
                 transition={{ delay: 0.12 }}
               >
                 <a href="https://t.me/OGoluwa" target="_blank">
-                  <img
+                  <motion.img
                     src={Telegram}
                     alt="Telegram"
                     className="w-[30px] h-[30px]"
+                    whileInView={{ rotate: 360 }}
+                    transition={{ duration: .4 }}
                   />
                 </a>
               </motion.div>
@@ -57,7 +60,13 @@ function HomeContact() {
                 transition={{ delay: 0.13 }}
               >
                 <a href="https://x.com/Ogoluwa_" target="_blank">
-                  <img src={Twitter} alt="X" className="w-[30px] h-[30px]" />
+                  <motion.img
+                    src={Twitter}
+                    alt="X"
+                    className="w-[30px] h-[30px]"
+                    initial={{ scale: 0 }}
+                    whileInView={{ scale: 1 }}
+                  />
                 </a>
               </motion.div>
               <motion.div
@@ -70,7 +79,7 @@ function HomeContact() {
                   href="https://www.instagram.com/ogoluwa_1/?igsh=azFxNXh1Mmllc3N4"
                   target="_blank"
                 >
-                  <img src={Instagram} alt="X" className="w-[30px] h-[30px]" />
+                  <motion.img src={Instagram} alt="X" className="w-[30px] h-[30px]" whileInView={{rotate: [-35, 35, 0]}} transition={{duration: .5}}/>
                 </a>
               </motion.div>
               <motion.div
@@ -80,7 +89,7 @@ function HomeContact() {
                 transition={{ delay: 0.15 }}
               >
                 <a href="https://web.facebook.com/OGthagreat1/" target="_blank">
-                  <img src={Facebook} alt="X" className="w-[30px] h-[30px]" />
+                  <motion.img src={Facebook} alt="X" className="w-[30px] h-[30px]" initial={{scale: 0, opacity: 0}} whileInView={{scale: 1.1, opacity: 1}} transition={{duration: .2}}/>
                 </a>
               </motion.div>
             </section>
