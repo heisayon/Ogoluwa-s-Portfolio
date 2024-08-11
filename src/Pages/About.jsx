@@ -10,7 +10,7 @@ function About() {
         </div>
         <div className=" col-span-2 border-2 rounded-2xl px-5 py-6 border-[#6696ffff] shadow-[1px_0px_11px_3px_#6696ff]">
           <h1 className=" text-center font-semibold text-2xl m-3">About Me</h1>
-          <section>
+          <section className="text-center">
             <h1>
               Hey there, I&rsquo;m Ogoluwa Odejimi. With over 3 years as a
               passionate graphic designer, creating mind wobbling and engaging
