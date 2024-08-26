@@ -9,7 +9,7 @@ function Home() {
         <h1 className="w-[500px] max-sm:w-[70%] font-medium text-2xl">
           Creativity lies in the mind, I&rsquo;m crafted with potentials to make
           your ideas a reality with mind wobbling and engaging visuals. <br />
-          Let&rsquo;s get creative.
+          Let&rsquo;s get Potential! ⚡
         </h1>
         <Experience />
       </div>
@@ -28,6 +28,7 @@ function Home() {
         </h1>
         <HomeContact />
       </section>
+  
     </>
   );
 }
