@@ -3,7 +3,7 @@ import { Carousel } from "flowbite-react";
 function Works() {
   return (
     <>
-    <h1 className="text-center mb-20 mt-[-50px] text-4xl font-semibold">Works</h1>
+    <h1 className="text-center 2xl:mb-20 mb-10 mt-[-50px] text-4xl font-semibold">Works</h1>
     <div className="h-[500px]  ">
       <Carousel slideInterval={5000}>
         {images.map((image, index) => {
