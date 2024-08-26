@@ -3,13 +3,13 @@ import FeaturedWork from "../Components/FeaturedWork";
 import HomeContact from "../Components/HomeContact";
 import Testimonials from "../Components/Testimonials";
 function Home() {
-
   return (
     <>
       <div className="h-[100vh] mt-[250px]">
         <h1 className="w-[500px] max-sm:w-[70%] font-medium text-2xl">
-          Hey there, need creative mind wobbling and engaging visuals? Connect
-          now, let&rsquo;s get creative.
+          Creativity lies in the mind, I&rsquo;m crafted with potential to make
+          your ideas a reality with mind wobbling and engaging visuals. <br />
+          Let&rsquo;s get creative.
         </h1>
         <Experience />
       </div>

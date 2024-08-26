@@ -1,8 +1,18 @@
+import { images } from "../constants";
+import { Carousel } from "flowbite-react";
 function Works() {
   return (
-    <div>
-      <h1>Works</h1>
+    <>
+    <h1 className="text-center mb-20 mt-[-50px] text-4xl font-semibold">Works</h1>
+    <div className="h-[500px]  ">
+      <Carousel slideInterval={5000}>
+        {images.map((image, index) => {
+          return( 
+            <img key={index} src={image.src} alt={image.alt} className="max-w-[600px]" />);
+        })} 
+      </Carousel>
     </div>
+    </>
   );
 }
 
