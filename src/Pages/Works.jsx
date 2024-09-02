@@ -32,7 +32,7 @@ function Works() {
             href="https://drive.google.com/file/d/18RpZi_ruQSTvdg6GzMKgXnrUUMP_rGTi/view?pli=1"
             target="_blank"
           >
-            View Resume
+            View CV
           </a>
         </button>
       </div>
