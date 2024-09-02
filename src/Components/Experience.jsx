@@ -15,18 +15,18 @@ function Experience() {
                 .typeString(`Welcome to my World!`)
                 .pauseFor(300)
                 .deleteAll()
-                .typeString("I am od")
+                .typeString("I am OG")
                 .deleteChars(2)
                 .typeString(
                   "<span style='color: #525CEB'>Odejimi Ogoluwa.</span>"
                 )
-                .pauseFor(1000)
+                .pauseFor(1200)
                 .deleteChars(16)
                 .typeString(
-                  `a <span style='color: #EF5A6F'>Passionate</span> Graphic Designer`
+                  `an <span style='color: #EF5A6F'>Experienced</span> Graphic Designer`
                 )
                 .pauseFor(1200)
-                .deleteChars(28)
+                .deleteChars(30)
                 .typeString(
                   `<span style='color: #F4CE14'> Collab Manager</span>`
                 )

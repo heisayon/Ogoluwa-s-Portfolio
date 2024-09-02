@@ -12,8 +12,8 @@ function About() {
           <h1 className=" text-center font-semibold text-2xl m-3">About Me</h1>
           <section className="text-center">
             <h1>
-              Hey there, I&rsquo;m Ogoluwa Odejimi. With over 3 years as a
-              passionate graphic designer, creating mind wobbling and engaging
+              Hey there, I&rsquo;m Ogoluwa Odejimi. With over 3 years as an
+             Experienced graphic designer, creating mind wobbling and engaging
               visuals and 2 years in the Web3 space, I have worked with
               <b> Chain2055</b> as a graphic designer as well as moderating
               crypto project, communities and collaborated on innovative

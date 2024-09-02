@@ -7,9 +7,9 @@ function Home() {
     <>
       <div className="h-[100vh] mt-[250px]">
         <h1 className="w-[500px] max-sm:w-[70%] font-medium text-2xl">
-          Creativity lies in the mind, I&rsquo;m crafted with potentials to make
+          Creativity lies in the mind, I&rsquo;m crafted with <b>Potentials</b> to make
           your ideas a reality with mind wobbling and engaging visuals. <br />
-          Let&rsquo;s get Kinetic! ⚡
+          Let&rsquo;s get <b>Kinetic!</b> ⚡
         </h1>
         <Experience />
       </div>

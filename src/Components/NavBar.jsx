@@ -17,7 +17,7 @@ function NavBar() {
       <div className="fixed top-0 right-0 left-0 py-5 px-6 h-20 w-full z-20 backdrop-blur-md bg-white/0">
         <div className="flex justify-between items-center mb-[200px] max-w-[1400px] m-auto">
           <Link to="/" className=" font-bold text-3xl z-20" onClick={close}>
-            ogoluwa
+            OGoluwa
           </Link>
 
           <ul className="flex justify-center items-center max-md:hidden">
